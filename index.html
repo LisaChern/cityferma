@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script>
+
+
+            function digitalClock() {
+             var date = new Date();
+             var hours = date.getHours();
+             var minutes = date.getMinutes();
+             var seconds = date.getSeconds();
+                //* добавление ведущих нулей */
+               if (hours < 10) hours = "0" + hours;
+               if (minutes < 10) minutes = "0" + minutes;
+               if (seconds < 10) seconds = "0" + seconds;
+                 document.getElementById("id_clock").innerHTML = hours + ":" + minutes + ":" + seconds;
+                 setTimeout("digitalClock()", 1000);
+               }
+   
+            
+           </script>
+
+        <title>Hydroponics - city farm</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+    
+    </head>
+    <body>
+<header>
+    <div class="hui">
+        <p>HYDROPONICS</p>
+    </div>
+
+        <div class="clock"> 
+            
+            
+            <div id="id_clock"></div>
+
+
+            <script>digitalClock();</script>
+
+
+        </div>
+    
+    <div class="am">
+        
+    
+    </div>
+
+
+</header>
+
+<content>
+    <div class="block_1">
+    <div class="pizdaname">
+        <div class="nameblock1">
+        <p>All signs are normal.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="block_2">
+    <div class="nameblock2">
+        <p>light control</p>
+    </div>
+
+    <div class="checkbox_block2">
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>  
+    
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>   
+
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>   
+    </div>
+</div>
+
+
+<div class="block_3">
+    <div class="cameraname">
+        <p>security system</p>
+    </div>
+
+    <div class="camera">
+    </div>
+
+    <div class="nosignal">
+        <p>нет сигнала</p>
+    </div>
+</div>
+
+
+<div class="block_5">
+    <div class="rectangle1">
+    </div>
+
+    <div class="rectangle2">
+    </div>
+
+    <div class="rectangle3">
+    </div>
+
+    <div class="rectangle4">
+    </div>
+</div>
+
+
+<div class="block_4">
+    <div class="nameblock4">
+        <p>irrigation management</p>
+    </div>
+</div>
+
+
+<div class="block_6">
+    <div class="namenotes">
+        <p>notes</p>
+    </div>
+
+    <div class="notes">
+    </div>
+</div>
+
+
+<div class="block_7">
+    <div class="nameblock7">
+        <p>last activity</p>
+    </div>
+    <div class="lastactivity"></div>
+</div>
+
+</content>
+        
+     
+    </body>
+</html>

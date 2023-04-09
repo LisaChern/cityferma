@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+body {
+    background-color: rgba(0, 95, 96, 0.36);
+    margin: 0%;
+    padding: 0%;
+}
+.hui {
+  position: relative;
+    font-size: 45px;                                
+    font-family: 'Irish Grover', cursive;
+    width: 360px;
+    height: 48px;
+    top: 17px;
+    color: rgba(28, 74, 63, 1);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.clock {
+  position: relative;
+  top: 37px;
+  width: 124px;
+  height: 47px;
+  font-size: 40px;
+  font-family: 'Irish Grover', cursive;
+  color: rgba(28, 74, 63, 1);
+}
+.am{
+  position: relative;
+  background-image: url(img/am.png);
+  background-size: cover;
+  top: 28px;
+    width: 80px;
+    height: 80px;
+}
+.pizdaname{
+  position: absolute;
+  top: 108px;
+  left: 787px;
+    width: 346px;
+    height: 37px;
+    border: 1px solid rgba(99, 139, 134, 1);
+    background-color: rgba(99, 139, 134, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -8px -5px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    ;
+}
+.block_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nameblock1{
+    font-family: 'Irish Grover', cursive;
+    color: rgba(28, 74, 63, 1);
+    font-size: 24px; 
+}
+.nameblock2{
+  position: absolute;
+  top: 207px;
+  left: 427px;
+  font-family: 'Irish Grover', cursive;
+  font-size: 36px;
+  color: rgba(28, 74, 63, 1);
+  width: 239px;
+  height: 57px;
+
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {display:none;}
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 250px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 35px;
+    background-color: rgba(217, 217, 217, 1);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    top: 5px;
+    height: 26px;
+    width: 26px;
+    left: 0px;
+    bottom: 4px;
+    background-color:rgba(154, 154, 154, 1);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #34373aa4;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .cameraname{
+    position: absolute;
+    display: flex;
+    top: 80px;
+    left: 1301px;
+    width: 303px;
+    height: 40px;
+    font-size: 36px;
+    font-family: 'Irish Grover', cursive;
+    color: rgba(28, 74, 63, 1);
+  }
+
+  .camera{
+    position: absolute;
+    display: flex;
+    top: 180px;
+    left: 1186px;
+    width: 534px;
+    height: 300px;
+    background-color: rgba(35, 35, 35, 0.69);
+    z-index: 1;
+  }
+
+  .nosignal{
+    position: absolute;
+    font-size: 40px;
+    width: 236px;
+    height: 48px;
+    top: 286px;
+    left: 1335px;
+    z-index: 2;
+  }
+
+  .rectangle1{
+    position: absolute;
+    top: 500px;
+    left: 1195px;
+    width: 100px;
+    height: 125px;
+    background-color: rgba(99, 139, 134, 1);
+    box-shadow: -7px -7px 0px 0px rgba(0, 0, 0, 0.25) inset;
+    background-image: url(img/tempa.png);
+    background-size: cover;
+  }
+
+  .rectangle2{
+    position: absolute;
+    top: 500px;
+    left: 1336px;
+    width: 100px;
+    height: 125px;
+    background-color: rgba(99, 139, 134, 1);
+    box-shadow: -7px -7px 0px 0px rgba(0, 0, 0, 0.25) inset;
+    background-image: url(img/waterdrop.png);
+    background-size: cover;
+  }
+
+  .rectangle3{
+    position: absolute;
+    top: 500px;
+    left: 1477px;
+    width: 100px;
+    height: 125px;
+    background-color: rgba(99, 139, 134, 1);
+    box-shadow: -7px -7px 0px 0px rgba(0, 0, 0, 0.25) inset;
+    background-image: url(img/waterwaves.png);
+    background-size: cover;
+  }
+
+  .rectangle4{
+    position: absolute;
+    top: 500px;
+    left: 1620px;
+    width: 100px;
+    height: 125px;
+    background-color: rgba(99, 139, 134, 1);
+    box-shadow: -7px -7px 0px 0px rgba(0, 0, 0, 0.25) inset;
+    background-image: url(img/ventilation.png);
+    background-size: cover;
+  }
+
+  .nameblock4{
+    position: absolute;
+    width: 417px;
+    height: 57px;
+    top: 350px;
+    left: 323px;
+    font-size: 36px;
+    font-family: 'Irish Grover', cursive;
+    color: rgba(28, 74, 63, 1);
+  }
+
+  .namenotes{
+    position: absolute;
+    width: 128px;
+    height: 40px;
+    top: 640px;
+    left: 1400px;
+    font-size: 36px;
+    font-family: 'Irish Grover', cursive;
+    color: rgba(28, 74, 63, 1);
+
+}
+
+  .notes{
+    position: absolute;
+    width: 524px;
+    height: 276px;
+    top: 725px;
+    left: 1195px;
+    background-color: rgba(217, 217, 217, 1);
+  }
+
+  .nameblock7{
+    position: absolute;
+    width: 235px;
+    height: 57px;
+    top: 633px;
+    left: 425px;
+    font-size: 36px;
+    font-family: 'Irish Grover', cursive;
+    color: rgba(28, 74, 63, 1);
+  }
+
+  .lastactivity{
+    position: absolute;
+    width: 524px;
+    height: 276px;
+    top: 720px;
+    left: 290px;
+    background-color: rgba(217, 217, 217, 1);
+  }
